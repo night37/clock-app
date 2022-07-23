@@ -1,0 +1,21 @@
+
+
+
+.theme-light {
+    --color-primary: #FFFFFF;
+    --background-image:  url(../assets/images/background-image-light-theme.jpg);
+    
+
+
+}
+
+.theme-dark {
+    --color-primary: #303030;
+    background-image: url(../assets/images/background-image-dark-theme.jpg) ;
+
+}
+body{
+    background-image: var(--background-image);
+    background-size:cover
+
+}
